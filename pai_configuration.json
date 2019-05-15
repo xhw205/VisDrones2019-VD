@@ -1,0 +1,22 @@
+{
+    "jobName": "bsline_47533686",
+    "image": "192.168.193.253:5000/pytorch",
+    "authFile": "",
+    "dataDir": "$PAI_DEFAULT_FS_URI/data/datasets/VID-train.tar",
+    "outputDir": "",
+    "codeDir": "$PAI_DEFAULT_FS_URI/Users/$PAI_USER_NAME/$PAI_USER_NAME~$PAI_JOB_NAME",
+    "virtualCluster": "default",
+    "gpuType": "geforce1080ti",
+    "retryCount": 0,
+    "taskRoles": [
+        {
+            "name": "task",
+            "taskNumber": 1,
+            "cpuNumber": 7,
+            "memoryMB": 12000,
+            "shmMB": 2048,
+            "gpuNumber": 2,
+            "command": "cd $PAI_JOB_NAME  && bash setup.sh"
+        }
+    ]
+}

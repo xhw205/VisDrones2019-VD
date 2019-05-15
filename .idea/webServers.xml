@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ddbd64b8-8438-4984-96b5-8f137ef3cb92" name="cc" url="http://222.195.151.170">
+        <fileTransfer host="222.195.151.170" port="9131" rootFolder="/home/xhw205/RebornProject" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="9131" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
